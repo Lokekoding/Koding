@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Hjem</a>
+        <a href="vareside.html">Merch</a>
+        <a href="kommentarer.html">Kommentarer</a>    
+        <a href="innlogging.html">Logg inn</a>
+        <a href="registrering.html">Registrer deg</a>
+    </nav>
+<br>
+    <form id="registrer">  
+        <h1>Registrer deg!</h1>
+        <input type="text" placeholder="Brukernavn" minlength="6" required>
+        <input type="password" placeholder="Passord"  required>
+        <input type="text" placeholder="Fornavn" required>
+        <input type="text" placeholder="Etternavn" required>
+        <input type="text" placeholder="Adresse" required>
+        <input type="number" placeholder="Postnr" required pattern="[1-9]{4}" title="4 Tall">
+        <input type="tel" placeholder="tlf" required pattern="[1-9]{4}">
+        <input type="email" placeholder="E-post">
+        <span id="fødsel">Fødselsdato:</span>
+        <input type="date">
+        <input type="submit" value="Register me now" >
+    </form>
+
+</body>
+</html>

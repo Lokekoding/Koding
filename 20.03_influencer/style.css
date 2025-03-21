@@ -1,0 +1,130 @@
+
+body {
+    
+    background-image: linear-gradient(rgb(66,66,66), rgb(247, 0, 255));
+    background-repeat: no-repeat;
+    min-height: 938px;
+    
+}
+
+
+nav {
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    margin-left: 20px;
+}
+
+/* index */
+header h1 {
+    color: white;
+    transform: scale(3);
+    position:fixed;
+    top: 150px;
+    right: 350px;
+    z-index: -1;
+
+}
+header img {
+    width: 100%;
+    position: fixed;
+    top: 55px;
+    z-index: -10;
+}
+
+#frontpage {
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 600px;
+    height: 700px;
+    width: 90%;
+    padding: 30px;
+    color: white;
+}
+
+/* vareside */
+#merchtable {
+    margin: auto;
+    margin-top: 50px;    
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#merchtable img {
+    width: 300px;
+    padding: 5px;    
+    border-radius: 10px;
+
+}
+
+#merchtable h2 {
+    color: white;
+    text-align: center;
+}
+
+.valg {
+    width: 25px;
+}
+
+/* innlogging */
+#innlogg {
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 5px;
+    width: 180px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#innlogg h1 {
+    color: white;
+}
+
+#innlogg input {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* registr */
+#registrer {
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 5px;
+    width: 370px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#registrer input {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#registrer h1 {
+    color: white;
+    text-align: center;
+}
+
+#fødsel {
+    color: white;
+    padding-right: 50px;
+    padding-left: 51px;
+}
+
+#registrer input[type=submit] {
+    margin-left: 131px;
+}
+
+/* kommentarer */
