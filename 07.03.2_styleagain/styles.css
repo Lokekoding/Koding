@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile h1 {
+    color: rgb(103, 3, 122);
+}
+
+.profile {
+    background-color:rgb(142, 174, 202);
+    padding: 10px;
+}
+
+#user-name {
+    color: rgb(179, 107, 0);
+}
+
+.bio p {
+    font-size: 14px;
+}
+
+h2 + p {
+    color: rgb(0, 110, 18);
+}
+
+input[type="email"] {
+    border-color: blue ;
+}
+
+.bio p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: red;
+}

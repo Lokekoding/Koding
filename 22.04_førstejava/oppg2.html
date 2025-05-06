@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="for" placeholder="Fornavn">
+    <br>
+    <input type="text" id="mellom"  placeholder="Mellomnavn">
+    <br>
+    <input type="text" id="etter" placeholder="Etternavn">
+    <br>
+    <button onclick="funksjon()">Send</button>
+    <h1>Fullt navn:</h1>
+    <div id="navn"></div>
+
+    <script>
+        function funksjon() {
+            let fornavn = document.getElementById("for").value;
+            let mellomnavn = document.getElementById("mellom").value;
+            let etternavn = document.getElementById("etter").value;
+            document.getElementById("navn").innerText = fornavn +" "+ mellomnavn + " " + etternavn; 
+        }
+    </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(white,rgb(170, 170, 170)) ;
+}
+nav {    
+    position: sticky;
+    top: 0;
+    background-color: rgb(150, 150, 150);
+    border-radius: 5px;
+    padding:15px
+}
+nav a {
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    padding:7px ;
+    background-color: rgb(104, 104, 104);
+    border-radius: 5px;
+}
+
+#skuespillere ol {
+    text-transform: uppercase;
+}
+
+
+#skuespillere span {
+    color: green;
+}
+
+#wishlist {
+    float:right ;
+}
+
+#land li  {
+    background-color: #679ec2;
+    /*wtf er going on*/ 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:indigo
+}
+
+.landene li{
+    text-shadow: 2px 2px rgb(134, 134, 134);
+}
+
+#avsnitt  dt {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0c4e7a;
+}
+
+
+#avsnitt dd {
+    color: #0c4e7a;
+}
+
+.table {
+margin: auto;
+border: 2px;
+border-color: black;
+}
+
+.table td {
+padding: 5px;
+}
+
+.flest {
+    background-color: hsl(180, 48%, 62%);
+}
+
+#mainTekst p:first-of-type {
+    color: red;
+}
+
+.seksjon1 {
+    text-align: center;
+}
+
+.seksjon4 {
+    float: right;
+}
+
+#mainTekst p:nth-child(3) {
+    color: blue;
+}

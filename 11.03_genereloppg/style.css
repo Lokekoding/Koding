@@ -1,0 +1,157 @@
+* {
+    margin: 1;
+    padding: 5px;    /* '*' ødelegger jo hele siden */
+}
+
+body {
+    background-image: linear-gradient(#466060, #57886C);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+
+}
+
+
+nav {
+    background-color: #81a684;
+    border-radius: 5px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #dfd9da;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    border-color:#dfd9da;
+}
+
+main {
+    margin-top: 50px;
+    background-color: #57886C;
+    border-radius: 5px;
+    height: 400px;
+}
+
+main h1::before {
+    content: "👽";
+}
+
+/* ---------------------------------------*/
+
+#skjema {
+    width: 400px;
+    background-color: #57886C;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+}
+
+#skjema input[type="email"] {
+    background-color:#a5c5a8;
+}
+
+#skjema h1 {
+    color: #dfd9da;
+}
+
+#skjema input:nth-child(2),#skjema input:nth-child(4),#skjema input:nth-child(6)  {
+    background-color: #a5c5a8;
+}
+
+#skjema input:focus {
+    background-color: #81a684;
+}
+
+#submitbtn {
+    margin-left: 310px;
+}
+
+#check1label {
+    color: #dfd9da;
+    margin-left: 50px;
+}
+
+#check1::after {
+    content:"(Valgfritt)";
+    margin-left: 17px;
+    color: #dfd9da;
+}
+
+/* ---------------------------------------*/
+
+#oppskrifter {
+    background-color:#57886C;
+    width: 90%;
+    margin: auto;
+}
+
+#oppskriftliste {
+    border-color: black;
+    background-color: #dfd9da;
+}
+
+#oppskriftliste img {
+    width: 190px;
+    height: 150px;
+}
+
+
+#oppskriftliste ul {
+    margin-left: 20px;
+}
+
+
+#oppskriftliste tr:nth-child(odd) {
+    background-color:#a5c5a8;
+}
+
+#oppskriftliste tr:hover {
+    background-color: #81a684;
+}
+
+.middag::before {
+    content: "🍽️";
+}
+
+/* ---------------------------------------*/
+
+#overskriften {
+    text-align: center;
+    color: #dfd9da;
+}
+
+#ansatte {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#ansatte div {
+    background-color: #dfd9da;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#ansatte div:hover {
+    border-color: red;
+}
+
+#ansatte p::after {
+    content: "📧";
+}
+
+#ansatte div:nth-child(odd) {
+    background-color: #81a684;
+}
+
+#ansatt2 {
+    color: #57886C;
+}
